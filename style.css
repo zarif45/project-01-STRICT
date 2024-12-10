@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 75%, 8%);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container {
+    width:100%;
+    margin: 0 auto;
+}
+header {
+    background-color: white;
+    color: #ee5555;
+    padding: 20px;
+}
+header .logo {
+    margin-left: 56px;
+}
+header nav {
+    margin-right: 56px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url(Banner.png);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+.hero p {
+    font-size: 20px;
+}
+.hero .btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-content{
+    padding: 100px 0;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px 0;
+}
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.features h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 0;
+   
+}
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallery .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery .grid-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background: url(Stay.png);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+footer form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: white;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+footer input, footer textarea {
+    background: none;
+    color: #ebeef1;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    width: 20px;
+}
+
+.footer-button{
+     display: flex;
+    justify-content: space-between;
+    
+}
+footer button {
+   
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button{
+    background: local;
+    padding: 2px 10px;
+   
+}
+form div{
+    text-align: right;
+}
+#submit{
+    text-align: left;
+}
